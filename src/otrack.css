@@ -1,0 +1,46 @@
+:root {
+    --primary: #403F65;
+    --secondary: #7D7CAA;
+    --accent: #EC8229;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2D2D2D;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(64, 63, 101, 0.1);
+}
+
+.floating-image {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.service-icon {
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover .service-icon {
+    transform: scale(1.1) rotate(5deg);
+    color: var(--accent);
+}

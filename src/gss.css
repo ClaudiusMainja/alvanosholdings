@@ -1,0 +1,15 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.service-card {
+    transition: all 0.3s ease-in-out;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.gradient-text {
+    background: linear-gradient(135deg, #403F65 0%, #7D7CAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

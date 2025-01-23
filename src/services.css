@@ -1,0 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.service-card {
+    transition: transform 0.3s ease-in-out;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+}
+.gradient-bg {
+    background: linear-gradient(135deg, #403F65 0%, #7D7CAA 100%);
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alvanos Holdings - Leading provider of security solutions, vehicle tracking, and insurance services in Zimbabwe and globally">
+    <title>Alvanos Holdings - Security, Tracking & Insurance Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
+  <!-- GSAP for animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/main.css">
+    <link rel="stylesheet" href="/src/gss.css">
+    </head>
+
+
+       <header>
+          <!-- Navbar -->
+    <nav class="bg-[#21203d] border-gray-200 ">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <!-- Logo -->
+  <div class="flex-shrink-0 flex items-center">
+    <img src="/assets/logos/logo-2.png" alt="Nature Extant" class="h-16 w-auto"/>
+  </div>
+            <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-[#7D7CAA] focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 text-white">
+                    <li><a href="/index.html" class="block py-2 px-3 hover:text-[#EC8229]">Home</a></li>
+                    
+                    <li>
+                        <a href="/pages/about.html">
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="whoWeAreDropdown" class="flex items-center py-2 px-3 hover:text-[#EC8229]">Who We Are <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/></svg></button>
+                        <div id="whoWeAreDropdown" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                            <ul class="py-2 text-sm text-gray-700">
+                                <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Our Team</a></li>
+                            </ul>
+                        </div>
+                    </a>
+                    </li>
+                    <li>
+                        <button id="whatWeDoLink" data-dropdown-toggle="whatWeDoDropdown" class="flex items-center py-2 px-3 hover:text-[#EC8229]">What We Do <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/></svg></button>
+                        <div id="whatWeDoDropdown" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                            <ul class="py-2 text-sm text-gray-700">
+                                <li><a href="/pages/gss.html" class="block px-4 py-2 hover:bg-gray-100">Global Security Solutions</a></li>
+                                <li><a href="/pages/otrack.html" class="block px-4 py-2 hover:bg-gray-100">O'Track Global</a></li>
+                                <li><a href="/pages/multiple insurance.html" class="block px-4 py-2 hover:bg-gray-100">Alvanos Multiple Insurance</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/pages/contact.html" class="block py-2 px-3 hover:text-[#EC8229]">Contact Us</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+       </header>
+<body>
+
+ <!-- Hero Section -->
+ <section class="min-h-screen relative overflow-hidden">
+    <div class="container mx-auto px-4 py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- Left Column - Content -->
+            <div class="space-y-8" data-aos="fade-right">
+                <h1 class="text-5xl font-bold leading-tight">
+                    <span class="gradient-text">Securing Your World</span>
+                    <br>With Advanced Solutions
+                </h1>
+                <p class="text-xl text-gray-600">Founded in 2017, we're a leading provider of comprehensive security and risk solutions, delivering innovative protection strategies for businesses and organizations worldwide.</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="mailto:gss@alvanosholdings.com">
+                    <button class="bg-[#403F65] hover:bg-[#2f2e4b] text-white font-semibold py-3 px-8 rounded-xl transition duration-300">
+                        Get Started
+                    </button>
+                </a>
+                <a href="tel:+263779999600">
+                    <button class="border-2 border-[#403F65] text-[#403F65] hover:bg-[#403F65] hover:text-white font-semibold py-3 px-8 rounded-xl transition duration-300">
+                    Call Us Today
+                    </button>
+                </a>
+                </div>
+                <div class="flex gap-8 pt-8">
+                    <div class="text-center">
+                        <h3 class="text-3xl font-bold text-[#403F65]">7+</h3>
+                        <p class="text-gray-600">Years Experience</p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-3xl font-bold text-[#403F65]">1000+</h3>
+                        <p class="text-gray-600">Clients Protected</p>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-3xl font-bold text-[#403F65]">24/7</h3>
+                        <p class="text-gray-600">Support</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Column - Image -->
+            <div class="relative" data-aos="fade-left">
+                <img src="/assets/images/gsshero.png" alt="Security Professional" class="rounded-2xl shadow-2xl w-full">
+                <div class="absolute -bottom-6 -left-6 bg-[#EC8229] text-white p-6 rounded-lg">
+                    <p class="font-bold">We Are</p>
+                    <p>Global Security Solutions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16" data-aos="fade-up">
+            <h2 class="text-4xl font-bold text-[#403F65] mb-4">Our Security Solutions</h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive protection through our integrated approach, combining human expertise with advanced technologies.</p>
+        </div>
+
+        <!-- Guard Services -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="service-card bg-white rounded-xl shadow-lg p-6" data-aos="fade-up">
+                <div class="h-16 w-16 bg-slate-200 rounded-xl flex items-center justify-center mb-6">
+                    <img src="/assets/images/gssicon-01.png" alt="Guard Icon" class="h-8 w-8">
+                </div>
+                <h3 class="text-2xl font-bold text-[#403F65] mb-4">Guard Services</h3>
+                <ul class="space-y-3 text-gray-600">
+                    <li>• Static and mobile patrols</li>
+                    <li>• Specialized guards</li>
+                    <li>• Plain-clothed operatives</li>
+                    <li>• Canine unit</li>
+                    <li>• VIP protection and escort services</li>
+                    <li>• Event security</li>
+                </ul>
+            </div>
+
+            <!-- Alarms & Technology -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="h-16 w-16 bg-slate-200 rounded-xl flex items-center justify-center mb-6">
+                    <img src="/assets/images/gssicon-01.png" alt="Tech Icon" class="h-8 w-8">
+                </div>
+                <h3 class="text-2xl font-bold text-[#403F65] mb-4">Alarms & Technology</h3>
+                <ul class="space-y-3 text-gray-600">
+                    <li>• Intelligent Alarm Systems</li>
+                    <li>• Intruder Detection</li>
+                    <li>• Access Control systems</li>
+                    <li>• CCTV systems with smart analytics</li>
+                    <li>• Remote Monitoring services</li>
+                    <li>• Biometric security installations</li>
+                </ul>
+            </div>
+
+            <!-- Additional Security Solutions -->
+            <div class="service-card bg-white rounded-xl shadow-lg p-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="h-16 w-16 bg-slate-200 rounded-xl flex items-center justify-center mb-6">
+                    <img src="/assets/images/gssicon-01.png" alt="Security Icon" class="h-8 w-8">
+                </div>
+                <h3 class="text-2xl font-bold text-[#403F65] mb-4">Advanced Security</h3>
+                <ul class="space-y-3 text-gray-600">
+                    <li>• Electric fencing</li>
+                    <li>• Seismic detectors</li>
+                    <li>• Metal detectors</li>
+                    <li>• Integrated security systems</li>
+                    <li>• 24/7 monitoring</li>
+                    <li>• Emergency response</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20 bg-[#403F65]">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center text-white" data-aos="fade-up">
+            <h2 class="text-3xl font-bold mb-6">Ready to Enhance Your Security?</h2>
+            <p class="text-xl mb-8">Get in touch with our security experts for a personalized consultation and security assessment.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="mailto:info@alvanosholdings.com" target="_blank">
+                <button class="bg-[#EC8229] hover:bg-[#d06d1f] text-white font-bold py-3 px-8 rounded-xl transition duration-300">
+                    Schedule Consultation
+                </button>
+            </a>
+            <a href="/assets/COMPANY-PROFILE.pdf" target="_blank">
+                <button class="bg-transparent border-2 border-white hover:bg-white hover:text-[#403F65] text-white font-bold py-3 px-8 rounded-xl transition duration-300">
+                    Download Profile
+                </button>
+            </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100
+    });
+</script>
+
+
+
+
+    
+    
+</body>
+   <!-- Footer -->
+   <footer class="bg-[#21203d] text-white py-12">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+            <div>
+                <h3 class="text-lg font-semibold mb-4">About Us</h3>
+                <p class="text-slate-100">Leading provider of security solutions, vehicle tracking, and insurance services.</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="/index.html" class="text-slate-100 hover:text-orange-400">Home</a></li>
+                    <li><a href="/pages/services.html" class="text-slate-100 hover:text-orange-400">Services</a></li>
+                    <li><a href="/pages/about.html" class="text-slate-100 hover:text-orange-400">About</a></li>
+                    <li><a href="/pages/contact.html" class="text-slate-100 hover:text-orange-400">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Services</h3>
+                <ul class="space-y-2">
+                    <li><a href="/pages/gss.html" class="text-slate-100 hover:text-orange-400">Global Security Solutions</a></li>
+                    <li><a href="/pages/otrack.html" class="text-slate-100 hover:text-orange-400">O'Track Global</a></li>
+                    <li><a href="/pages/multiple insurance.html" class="text-slate-100 hover:text-orange-400">Multiple Insurance</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Contact</h3>
+                <a href="mailto:info@alvanosholdings.com">
+                <p class="text-slate-100 hover:text-orange-400">info@alvanosholdings.com</p>
+            </a>
+                <p class="text-slate-100 hover:text-orange-400">Phone: +263 779 999 600 </p>
+                <p class="text-slate-100 hover:text-orange-400">Landline: +2638644282459</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 border-t border-gray-800 mt-12 pt-8 text-center">
+            <p class="text-slate-100">&copy; 2025 Alvanos Holdings. All rights reserved.</p>
+            <p class="text-slate-100">
+                Designed and developed by 
+                <a href="https://www.claudius-mainja.com" 
+                   class="text-blue-400 hover:text-blue-300 transition-colors duration-300">
+                   Claudius Mainja
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Initialize AOS -->
+<script>
+const counterAnimation = () => {
+    const counters = document.querySelectorAll('.counter');
+    
+    counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        const duration = 2000; // Animation duration in milliseconds
+        const increment = target / (duration / 16); // 60 FPS
+        
+        let current = 0;
+        
+        const updateCounter = () => {
+            current += increment;
+            if (current < target) {
+                counter.innerText = Math.ceil(current);
+                requestAnimationFrame(updateCounter);
+            } else {
+                counter.innerText = target;
+            }
+        };
+        
+        updateCounter();
+    });
+};
+
+// Initialize animations when elements become visible
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            if (entry.target.classList.contains('counter')) {
+                counterAnimation();
+            }
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.fade-in, .counter').forEach((el) => observer.observe(el));
+
+// Initialize AOS
+AOS.init({
+    duration: 800,
+    once: true,
+    offset: 100
+});
+</script>
+
+
+</html>

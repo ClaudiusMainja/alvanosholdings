@@ -1,0 +1,52 @@
+:root {
+    --primary: #403F65;
+    --secondary: #7D7CAA;
+    --accent: #EC8229;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2D2D2D;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.insurance-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(64, 63, 101, 0.1);
+}
+
+.insurance-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(64, 63, 101, 0.1);
+    border-color: var(--accent);
+}
+
+.float-animation {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.shield-icon {
+    transition: all 0.3s ease;
+}
+
+.insurance-card:hover .shield-icon {
+    transform: scale(1.1);
+    color: var(--accent);
+}
+
+.trust-badge {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
